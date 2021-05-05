@@ -85,7 +85,7 @@ function itemHandler(player, item) {
 function badgeHandler(player, badge) {
   badge.kill();
   won = true;
-  window.location.href="https://danylogera.github.io/Titles/";
+  window.location.href="https://danylogera.github.io/Titles-ua/";
 }
 
 // setup game when the web page loads
@@ -170,14 +170,14 @@ window.onload = function () {
 
     cursors = game.input.keyboard.createCursorKeys();
     jumpButton = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
-    text = game.add.text(5, 16, "SCORE: " + currentScore, { font: "bold 19px Arial", fill: "white" });
+    text = game.add.text(5, 16, "Рахунок: " + currentScore, { font: "bold 19px Arial", fill: "white" });
     winningMessage = game.add.text(game.world.centerX, 340, "", { font: "bold 47px Arial", fill: "white" });
     winningMessage.anchor.setTo(0.5, 1);
   }
 
   // while the game is running
   function update() {
-    text.text = "SCORE: " + currentScore;
+    text.text = "Рахунок: " + currentScore;
     game.physics.arcade.collide(player, platforms);
     game.physics.arcade.overlap(player, items, itemHandler);
     game.physics.arcade.overlap(player, badges, badgeHandler);
@@ -205,7 +205,7 @@ window.onload = function () {
     }
     // when the player winw the game
     if (won) {
-      winningMessage.text = "GREAT WORK!";
+      winningMessage.text = "Хороша робота!";
 
     }
 
