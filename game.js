@@ -148,7 +148,7 @@ window.onload = function () {
 
   // initial game set up
   function create() {
-    // alert("Прочитайте завдання, закрийте його на хрестик і грайте!");
+    
     timer1();
     this.add.image(0, 0, 'background');
     game.add.sprite(266, 467, 'grandma');
