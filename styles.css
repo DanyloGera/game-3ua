@@ -102,3 +102,8 @@ position: absolute;
       height: 100%;
       text-align: center;
 }
+@media (min-height: 800px) {
+  .btn-next, .btn-back {
+    max-height: 80%;
+  }
+}
