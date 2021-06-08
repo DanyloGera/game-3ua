@@ -94,6 +94,10 @@ window.onload = function () {
 
   // before the game begins
   function preload() {
+    game.scale.scaleMode = Phaser.ScaleManager.USER_SCALE;
+    game.scale.setMinMax(700, 500, 900, 700);
+    game.scale.pageAlignHorizontally = true;
+    game.scale.pageAlignVertically = true;
 
     game.load.image('background', 'background.png');
 
@@ -148,7 +152,7 @@ window.onload = function () {
 
   // initial game set up
   function create() {
-    
+
     timer1();
     this.add.image(0, 0, 'background');
     game.add.sprite(266, 467, 'grandma');
