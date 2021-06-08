@@ -6,36 +6,34 @@ background-image: linear-gradient(to bottom, #fdd588, #feca8b, #fcc090, #f7b894,
     box-shadow: 0 0  20px 10px #78262C;
     border-radius: 10px;
   }
-.btn-back {
-  position: absolute;
-  top: 50px;
-  background-color: #FEC75E;
-  padding: 20px;
-  border: 2px solid #000;
-  border-radius: 10px;
-  font-family: 'DotGothic16', sans-serif;
-  font-size: 15px;
-}
-.btn-back-wrapper {
-  display: flex;
+  .row1{
+    display: flex;
   justify-content: flex-start;
-}
-.btn-next-wrapper {
-  display: flex;
-  justify-content: flex-end;
 
-}
-.btn-next{
-  position: absolute;
-  top: 50px;
-  background-color: #FEC75E;
-  padding: 20px;
-  border: 2px solid #000;
-  border-radius: 10px;
-  font-family: 'DotGothic16', sans-serif;
-  font-size: 15px;
-}
-
+  }
+  .row1-wrap{
+    position: absolute;
+      height: 95%;
+    width: 20%;
+  }
+  .btn-back {
+    background-color: #FEC75E;
+        padding: 20px;
+        border: 2px solid #000;
+        border-radius: 10px;
+        font-family: 'DotGothic16', sans-serif;
+        font-size: 10pt;
+        max-width: 90%;
+        height: 100%;
+  }
+  .btn-back-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 12%;
+    width: 100%;
+    position: absolute;
+    top: 1%
+  }
 
 
 .container {
@@ -85,13 +83,22 @@ background-image: linear-gradient(to bottom, #fdd588, #feca8b, #fcc090, #f7b894,
 /* time */
 .timer-wrapper {
   position: absolute;
-top: 500px;
+top: 90%;
+display: flex;
+justify-content: center;
+
+width: 100%;
+position: absolute;
 }
+
 .timer {
-  width: 150px;
   background-color: #FEC75E;
-  padding: 20px;
-  border: 2px solid #000;
-  border-radius: 10px;
-  text-align: center;
+      padding: 20px;
+      border: 2px solid #000;
+      border-radius: 10px;
+      font-family: 'DotGothic16', sans-serif;
+      font-size: 10pt;
+      max-width: 90%;
+      height: 100%;
+      text-align: center;
 }
