@@ -99,11 +99,11 @@ window.onload = function () {
     game.scale.pageAlignHorizontally = true;
     game.scale.pageAlignVertically = true;
 
-    game.load.image('background', 'background.png');
+    game.load.image('background', './img/background.png');
 
     //Load images
-    game.load.image('platform1', 'platform.png');
-    game.load.image('platform2', 'platform2.png');
+    game.load.image('platform1', './img/platform.png');
+    game.load.image('platform2', './img/platform2.png');
     //stairs
     game.load.image('step1', 'stairs2/step1.png');
     game.load.image('step2', 'stairs2/step2.png');
@@ -115,10 +115,10 @@ window.onload = function () {
 
     //Load spritesheets
     game.load.spritesheet('player', 'chalkers.png',  48, 62 );
-    game.load.spritesheet('grandma', 'grandma.png', { frameWidth: 60, frameHeight: 75 });
-    game.load.spritesheet('grandpa', 'grandpa.png', { frameWidth: 60, frameHeight: 75 });
-    game.load.spritesheet('grandma2', 'grandma2.png', { frameWidth: 60, frameHeight: 75 });
-    game.load.spritesheet('grandpa2', 'grandpa2.png', { frameWidth: 60, frameHeight: 75 });
+    game.load.spritesheet('grandma', './img/grandma.png', { frameWidth: 60, frameHeight: 75 });
+    game.load.spritesheet('grandpa', './img/grandpa.png', { frameWidth: 60, frameHeight: 75 });
+    game.load.spritesheet('grandma2', './img/grandma2.png', { frameWidth: 60, frameHeight: 75 });
+    game.load.spritesheet('grandpa2', './img/grandpa2.png', { frameWidth: 60, frameHeight: 75 });
 
     game.load.spritesheet('coin1', 'coin.png', 36, 44);
     game.load.spritesheet('coin2', 'coin.png', 36, 44);
@@ -126,10 +126,10 @@ window.onload = function () {
     game.load.spritesheet('coin4', 'coin.png', 36, 44);
 
 
-    game.load.spritesheet('fruitbasket', 'fruitbasket.png', { frameWidth: 40, frameHeight: 40 });
-    game.load.spritesheet('meatbasket', 'meatbasket.png', { frameWidth: 40, frameHeight: 40 });
-    game.load.spritesheet('giftbasket', 'giftbasket.png', { frameWidth: 40, frameHeight: 40 });
-    game.load.spritesheet('butterbasket', 'butterbasket.png', { frameWidth: 40, frameHeight: 40 });
+    game.load.spritesheet('fruitbasket', './img/fruitbasket.png', { frameWidth: 40, frameHeight: 40 });
+    game.load.spritesheet('meatbasket', './img/meatbasket.png', { frameWidth: 40, frameHeight: 40 });
+    game.load.spritesheet('giftbasket', './img/giftbasket.png', { frameWidth: 40, frameHeight: 40 });
+    game.load.spritesheet('butterbasket', './img/butterbasket.png', { frameWidth: 40, frameHeight: 40 });
 
     game.load.spritesheet('gamemachine', 'gamemachine.png', { frameWidth: 49, frameHeight: 85 });
 
